@@ -1,0 +1,35 @@
+# Content-based project classification. See SCHEMA.md → Classification → Project.
+# Keywords are lowercase phrases matched case-insensitively against the meeting title,
+# then the Granola summary. The sync never edits this file; add keywords here and the
+# next run re-checks "unclassified" meetings against them.
+
+ai-tutor:
+  name: "AI Tutor"
+  description: "AI Tutor product: admin flow, interactive components (infoblocks), learning objects, APIs."
+  keywords:
+    - "ai tutor"
+    - "infoblock"
+    - "interactive component"
+    - "admin flow"
+    - "lo type"
+    - "learning object"
+    - "rai backtracking"
+    - "api flag"
+
+ai-roleplays:
+  name: "AI Roleplays"
+  description: "AI Roleplays: scenario creator, conversation testing, eval datasets, EP tagging."
+  keywords:
+    - "roleplay"
+    - "role play"
+    - "role-play"
+    - "scenario creator"
+    - "conversation testing"
+    - "dataset creation"
+    - "ep tagging"
+
+rev-enablement-team:
+  name: "Rev Enablement Team"
+  description: "Rev Enablement team-wide meetings and weekly syncs."
+  keywords:
+    - "rev enablement"

@@ -1,0 +1,3 @@
+# Jira project prefix -> ticket type. See SCHEMA.md → Jira detection and classification.
+# Add one line per project that only holds production issues, e.g.:
+# PREFIX: production-issue
